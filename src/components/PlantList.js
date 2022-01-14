@@ -18,7 +18,7 @@ export default class PlantList extends Component {
       plants:res.data
       })
       }).catch(err => {
-        console.error(err);
+        console.error(err,'check mount');
       })
   }
   /*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
